@@ -1,7 +1,23 @@
 #include <stdio.h>
 
 int main(){
-    printf("xxxxxxx /n");
+   
+    printf(" x         x \n");
+    printf("  x       x \n");
+    printf("   x     x \n");
+    printf("    x   x \n");
+    printf("     x x \n");
+    printf("      x \n");
+    printf("     x x \n");
+    printf("    x   x \n");
+    printf("   x     x \n");
+    printf("  x       x \n");
+    printf(" x         x \n");
+    printf("x           x \n");
+
+    //desafio
+
+   
 
 
 
