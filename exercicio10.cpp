@@ -7,14 +7,18 @@ int main() {
     int v2 = 2;
     int v3 = 3;
     
-    if (v1 > v2)
-    {
-        printf(" 1 e maior que 2");
+    int numero_maior = v3;
+
+    if(v2 > numero_maior){
+        numero_maior = v2;
     }
     else{
-        printf("1 e menor que 2");
+        if(v3 > numero_maior){
+        numero_maior = v3;
+        }
     }
     
+    printf("O maior numero e: %d", numero_maior);
 
 
     return 0;
