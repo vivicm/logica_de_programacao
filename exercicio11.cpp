@@ -4,19 +4,19 @@
 
 int main(){
 
-    int nmaior = 1; //c
-    int nmeio = 3; //b 
-    int nmenor = 2; //a
-    /*
-        printf("Digite o primeiro número: ");
-        scanf("%d", &a);
+    int nmaior; 
+    int nmeio;  
+    int nmenor; 
+    
+        printf("Digite o primeiro numero: ");
+        scanf("%d", &nmenor);
         
-        printf("Digite o segundo número: ");
-        scanf("%d", &b);
+        printf("Digite o segundo numero: ");
+        scanf("%d", &nmeio);
         
-        printf("Digite o terceiro número: ");
-        scanf("%d", &c);
-    */
+        printf("Digite o terceiro numero: ");
+        scanf("%d", &nmaior);
+    
 
     if (nmenor < nmeio && nmenor < nmaior) {
         if (nmeio < nmaior)
