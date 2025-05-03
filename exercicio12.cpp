@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <string.h>
 
+//12. Faça um programa que, dados 3 strings, mostra essas strings em ordem alfabética.
+
 int main() {
     char str1[100], str2[100], str3[100];
     char temp[100];
