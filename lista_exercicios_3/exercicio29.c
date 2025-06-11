@@ -1,0 +1,34 @@
+#include <stdio.h>
+
+int l;
+int c;
+int tam = 3;
+
+char tabuleiro[3][3] = {'X', 'O', 'X', 'O', 'X', 'O', 'X', 'O', 'X'};
+
+
+
+char mostra_tabuleiro(){
+      for(l = 0; l < tam; l++){
+        for(c = 0; c < tam; c++){
+            //if(c=1, l =1){}
+                printf("%s ", tabuleiro[l][c]);
+                if (c < 2){
+                    printf("|");
+            
+                } 
+        }
+       if (l < 2){
+        printf("\n---+---+---\n");
+       }
+
+    }
+}
+
+int main(){
+
+    mostra_tabuleiro();
+
+
+    return 0;
+}

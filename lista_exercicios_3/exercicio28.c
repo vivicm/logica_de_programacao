@@ -21,6 +21,7 @@ int main(){
         printf("\n---+---+---\n");
     }*/
 
+    printf("Primeira tentiva, sem usar o if:");
     for(l = 0; l < tam; l++){
         for(c = 0; c < tam; c++){
             //if(c=1, l =1){}
@@ -28,7 +29,26 @@ int main(){
             
         }
         printf("\n---+---+---\n");
+
     }
+
+    printf("Utilizando o if:\n\n\n");
+
+     for(l = 0; l < tam; l++){
+        for(c = 0; c < tam; c++){
+            //if(c=1, l =1){}
+                printf("% d ", matriz[l][c]);
+                if (c < 2){
+                    printf("|");
+            
+                } 
+        }
+       if (l < 2){
+        printf("\n---+---+---\n");
+       }
+
+    }
+
 
     return 0;
 }
