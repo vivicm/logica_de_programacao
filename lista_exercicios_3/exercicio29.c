@@ -4,15 +4,15 @@ int l;
 int c;
 int tam = 3;
 
-char tabuleiro[3][3] = {'X', 'O', 'X', 'O', 'X', 'O', 'X', 'O', 'X'};
+char tabuleiro[3][3] = {'X', 'O', 'X', ' ', 'O', ' ', 'X', ' ', 'O'};
 
 
 
-char mostra_tabuleiro(){
+void mostra_tabuleiro(){
       for(l = 0; l < tam; l++){
         for(c = 0; c < tam; c++){
             //if(c=1, l =1){}
-                printf("%s ", tabuleiro[l][c]);
+                printf("%2.c ", tabuleiro[l][c]);
                 if (c < 2){
                     printf("|");
             
