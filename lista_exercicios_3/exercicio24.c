@@ -32,7 +32,9 @@ void cria_matriz(){
         for (c = 0; c < 3; c++) {
             matriz[l][c] = (rand() % 11) - 5; 
         }
+ 
     }
+   
 }
 
 void mostra_matriz() {
