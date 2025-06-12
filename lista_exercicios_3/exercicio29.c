@@ -13,12 +13,12 @@ void mostra_tabuleiro(){
         for(c = 0; c < tam; c++){
             //if(c=1, l =1){}
                 printf("%2.c ", tabuleiro[l][c]);
-                if (c < 2){
+                if (c == 1 || c == 0){
                     printf("|");
             
                 } 
         }
-       if (l < 2){
+       if (l == 1 || l == 0 ){
         printf("\n---+---+---\n");
        }
 
